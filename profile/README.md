@@ -18,7 +18,7 @@ git branch dev_login
 >_Remove the brackets [] and replace the content inside with your actual commit message._
 
 ```
-git commit -m "[fix/update/create/remove_issueorfeature#issueno_module--function/fix_versionoftheday]"
+git commit -m "[fix/update/create/remove_issueorfeature_versionoftheday]"
 
 Example:
 
