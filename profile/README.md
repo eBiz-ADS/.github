@@ -5,47 +5,47 @@
 >_Remove the brackets [] and replace the content inside with your actual branch name._
 
 ```
-git branch [feature_issue#issueno]
+git branch [dev/module]
 
 ****Issue no. can be found on the project board when an issue is created.
 
 Example:
 
-git branch login_issue#16
+git branch dev_login
 ```
 
 #### Commit
 >_Remove the brackets [] and replace the content inside with your actual commit message._
 
 ```
-git commit -m "[fix/update/create/remove_issue#issueno_module--function/fix_versionoftheday]"
+git commit -m "[fix/update/create/remove_issueorfeature#issueno_module--function/fix_versionoftheday]"
 
 Example:
 
-git commit -m "update_issue#16_login--sessiontimeout_1"
+git commit -m "update_login--sessiontimeout_1"
 ```
 
-#### Pull Request
->_Remove the brackets [] and replace the content inside with your actual commit message._
+>_If multiple modules, follow the format for readability._
 
 ```
-"[fix/update/create/remove_issueno_module--function]"
+git commit -m "[fix/update/create/remove_issueorfeature--whatdidyoufix/fix_versionoftheday]"
 
 Example:
 
-Update #16_login--sessiontimeout
+git commit -m "update_login|registration--sessiontimeout_1"
 ```
+
 
 #### Pull Request Description/Comment
 
 >_Remove the brackets [] and replace the content inside with your actual message._
 
 ```
-Pull Request Title: [platform--fix/update/create/remove issue#issueno module/function]
+Pull Request Title: [Repository Name--fix/update/create/remove module#function]
 
 Example:
 
-Pull Request Title: aml v3--fix issue#17 login
+Pull Request Title: Alapaan v1--fix login--create user
 
 Issue: [what features/functions]
 Fix: [description on how the issue was fixed]
