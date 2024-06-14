@@ -26,13 +26,13 @@
 >_Remove the brackets [] and replace the content inside with your actual branch name._
 
 ```
-git branch [create/update/remove/fix  module--description]
+git branch [create/update/remove/fix /module]
 
 ****Issue no. can be found on the project board when an issue is created.
 
 Example:
 
-git branch create login--forms
+git branch create/login
 ```
 
 #### Commit
