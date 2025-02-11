@@ -1,6 +1,4 @@
 # Nginx Headers
----
-## Description
 >_Sample nginx.conf content._
 
 ```
