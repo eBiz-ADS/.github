@@ -9,9 +9,9 @@
      listen 80;
      listen [::]:80;
  
-     server_name 192.168.227.104;
+     server_name $IP_ADDRESS;
  
-     root /usr/share/nginx/html/alapaap-v2;
+     root /usr/share/nginx/html/project_folder;
      index index.tsx;
  
      location /{
