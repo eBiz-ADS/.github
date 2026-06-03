@@ -26,7 +26,7 @@
 >_Remove the brackets [] and replace the content inside with your actual branch name._
 
 ```
-git branch [create/update/remove/fix /module]
+git branch [feature/enhancement/fix/style]
 
 ****Issue no. can be found on the project board when an issue is created.
 
