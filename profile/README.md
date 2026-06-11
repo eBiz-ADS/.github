@@ -1,49 +1,69 @@
-# Project Title
-#### _Version No_
-#### **Lead Developer**: _Name_
-#### **Co-Developer/s**: _Developer 1, Developer 2_
----
-## Description
->_This is a long description._
 
-## Table of Contents
+# Git Formatting
+>_Please do follow the following format for readability and easier backtracking of issues and for automating our semantic versioning._
 
-- [Project-Overview](#project-overview)
-- [Technical-Requirement](#technical-requirements)
-- [System/Environment](#environment-requirements)
-- [Installation](#installation-guide)
-- [API](#api)
+**Dev Tag Releases**
+> v0.0.1-dev.1
 
-## Project Overview
+**Staging Tag Releases**
+> v0.0.1-beta.1
 
->_Project, Description, Scope, and Limitations_
+**Production Tag Releases**
+> v1.0.0
 
-## Technical Requirements
-  1. _tool 1_
-  2. _tool 2_
+**Type of releases**
+
+ 1. **PATCH** in Semantic Versioning  
+ 2. **MINOR** in Semantic Versioning 
+ 3.  **MAJOR** in Semantic Versioning
+
+**Categories**
+
+-   **feat**: A new feature
+-   **fix**: A bug fix
+-   **docs**: Documentation only changes
+-   **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+-   **refactor**: A code change that neither fixes a bug nor adds a feature
+-   **perf**: A code change that improves performance
+-   **test**: Adding missing tests
+-   **build**: project build
+-   **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
+
+
+#### Branch Name (parent issue branch) (created by lead dev)
+>_Remove the brackets [] and replace the content inside with your actual branch name._
+
+```
+git branch [create/update/fix]
+
+****Issue no. can be found on the project board when an issue is created.
+
+Example:
+
+git branch create/userlogin
+```
   
-## Environment Requirements
-  1. _requirement 1_
-  2. _requirement 2_
-  
-## Installation Guide
->_Steps on how to run the projects_
-  1. _step 1_
-  2. _step 2_
-  
+
+#### Branch Name (sub-issues branch)
+>_Remove the brackets [] and replace the content inside with your actual branch name._
+
 ```
-<p> code snippet </p>
+git branch [feature/enhancement/fix/style/build]
+
+****Issue no. can be found on the project board when an issue is created.
+
+Example:
+
+git branch feature/login
 ```
 
-## API
-> _API description_
- 
-```
-<p> code snippet </p>
-```
-[URL for API](#installation-guide)
+#### Commit
+>_Remove the brackets [] and replace the content inside with your actual commit message._
 
-## System Documentations
-- [Document Title 1](#installation-guide)
-- [Document Title 2](#installation-guide)
-- [Document Title 3](#installation-guide)
+```
+git commit -m "[fix/feat/perf/doc/build/style/refactor(optional scope): module description --fr no' ]"
+
+Example:
+
+git commit -m "feat: create login form for registration and login --fr-001"
+```
