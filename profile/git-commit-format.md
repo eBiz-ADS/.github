@@ -20,13 +20,12 @@
 -   **build**: project build
 -   **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
 
-  
 
-#### Branch Name
+#### Branch Name (parent issue branch)
 >_Remove the brackets [] and replace the content inside with your actual branch name._
 
 ```
-git branch [feature/enhancement/fix/style]
+git branch [create/update/fix]
 
 ****Issue no. can be found on the project board when an issue is created.
 
@@ -34,15 +33,28 @@ Example:
 
 git branch create/login
 ```
+  
+
+#### Branch Name (sub-issues branch)
+>_Remove the brackets [] and replace the content inside with your actual branch name._
+
+```
+git branch [feature/enhancement/fix/style/build]
+
+****Issue no. can be found on the project board when an issue is created.
+
+Example:
+
+git branch feature/login
+```
 
 #### Commit
 >_Remove the brackets [] and replace the content inside with your actual commit message._
 
 ```
-git commit -m "[fix/feat/perf/doc/build/style/refactor(optional scope): module--description' ]"
+git commit -m "[fix/feat/perf/doc/build/style/refactor(optional scope): module description --fr no' ]"
 
 Example:
 
-git commit -m "feat(api)!: create login--form for registration and login"
+git commit -m "feat: create login form for registration and login --fr-001"
 ```
->_The (!) means a major update._
