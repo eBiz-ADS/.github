@@ -21,7 +21,7 @@
 -   **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
 
 
-#### Branch Name (parent issue branch)
+#### Branch Name (parent issue branch) (created by lead dev)
 >_Remove the brackets [] and replace the content inside with your actual branch name._
 
 ```
@@ -31,7 +31,7 @@ git branch [create/update/fix]
 
 Example:
 
-git branch create/login
+git branch create/userlogin
 ```
   
 
