@@ -1,6 +1,15 @@
+
 # Git Formatting
 >_Please do follow the following format for readability and easier backtracking of issues and for automating our semantic versioning._
 
+**Dev Tag Releases**
+> v0.0.1-dev.1
+
+**Staging Tag Releases**
+> v0.0.1-beta.1
+
+**Production Tag Releases**
+> v1.0.0
 
 **Type of releases**
 
