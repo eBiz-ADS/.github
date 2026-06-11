@@ -2,6 +2,7 @@
 # Git Formatting
 >_Please do follow the following format for readability and easier backtracking of issues and for automating our semantic versioning._
 
+## Release Tag
 **Dev Tag Releases**
 > v0.0.1-dev.1
 
@@ -29,6 +30,12 @@
 -   **build**: project build
 -   **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
 
+## Branches
+
+**Main Branches**
+-   **master**: production
+-   **dev**: development
+-   **staging**: uat/staging
 
 #### Branch Name (parent issue branch) (created by lead dev)
 >_Remove the brackets [] and replace the content inside with your actual branch name._
