@@ -68,7 +68,7 @@ git branch feature/login
 >_Remove the brackets [] and replace the content inside with your actual commit message._
 
 ```
-git commit -m "[fix/feat/perf/doc/build/style/refactor(optional scope): module description --fr no' ]"
+git commit -m "[fix/feat/perf/doc/build/style/refactor(optional scope): module description' ]"
 
 Example:
 
