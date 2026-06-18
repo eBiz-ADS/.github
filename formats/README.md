@@ -72,5 +72,5 @@ git commit -m "[fix/feat/perf/doc/build/style/refactor(optional scope): module d
 
 Example:
 
-git commit -m "feat: create login form for registration and login --fr-001"
+git commit -m "feat: create login form for registration and login"
 ```
