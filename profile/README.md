@@ -19,7 +19,7 @@
  3.  **MAJOR** in Semantic Versioning
 
 **Categories**
-
+-   **feat!**: Add a ! for BREAKING CHANGE
 -   **feat**: A new feature
 -   **fix**: A bug fix
 -   **docs**: Documentation only changes
